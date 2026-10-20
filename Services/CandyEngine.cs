@@ -1,3 +1,5 @@
+using Logger = LabApi.Features.Console.Logger;
+using Random = System.Random;
 using System;
 using System.Collections.Generic;
 using LabApi.Events.Handlers;

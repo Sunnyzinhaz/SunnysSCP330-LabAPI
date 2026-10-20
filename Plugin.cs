@@ -15,7 +15,7 @@ namespace SunnysSCP330
         public override string Author => "Sunnyz";
         public override string Description => "Doces personalizados SCP-330 para LabAPI";
         public override Version Version => new Version(2, 1, 1);
-        public override Version RequiredApiVersion => new Version(LabApiProperties.CompiledVersion);
+        public override Version RequiredApiVersion => typeof(LabApi.Loader.Features.Plugins.Plugin).Assembly.GetName().Version;
         public override void Enable()
         {
             Instance = this;
