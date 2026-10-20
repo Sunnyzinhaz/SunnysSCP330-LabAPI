@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup><TargetFramework>net48</TargetFramework><LangVersion>latest</LangVersion><Nullable>disable</Nullable><AssemblyName>SunnysSCP330</AssemblyName><Version>2.1.1</Version><GenerateAssemblyInfo>true</GenerateAssemblyInfo><PlatformTarget>x64</PlatformTarget></PropertyGroup>
+<ItemGroup><PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net48" Version="1.0.3" PrivateAssets="all" /></ItemGroup>
+<ItemGroup>
+<Reference Include="LabApi"><HintPath>$(SL_REFERENCES)\LabApi.dll</HintPath><Private>False</Private></Reference>
+<Reference Include="Assembly-CSharp"><HintPath>$(SL_REFERENCES)\Assembly-CSharp.dll</HintPath><Private>False</Private></Reference>
+<Reference Include="UnityEngine.CoreModule"><HintPath>$(SL_REFERENCES)\UnityEngine.CoreModule.dll</HintPath><Private>False</Private></Reference>
+<Reference Include="UnityEngine.PhysicsModule"><HintPath>$(SL_REFERENCES)\UnityEngine.PhysicsModule.dll</HintPath><Private>False</Private></Reference>
+<Reference Include="Assembly-CSharp-firstpass"><HintPath>$(SL_REFERENCES)\Assembly-CSharp-firstpass.dll</HintPath><Private>False</Private></Reference>
+<Reference Include="Mirror"><HintPath>$(SL_REFERENCES)\Mirror.dll</HintPath><Private>False</Private></Reference>
+</ItemGroup>
+</Project>
